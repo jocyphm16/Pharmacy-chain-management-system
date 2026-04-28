@@ -192,6 +192,11 @@ The system includes the following main tables:
 **Note**: This is a final project for IT1K65 Java Programming Course by Group 1. 
 
 For inquiries or references, please contact the author. **Any copying actions will be reported.**
+**Author**: Phương Mai Anh	- 241224468 - tralev
+            Phạm Thị Thúy Quỳnh - 241230831 - jocyphm	
+            Phạm Bá Tuấn Tú - 241230880 - tuantu-ococ
+            Trần Ngọc Khánh -	241230761 - ngockhanhtran
+            Nguyễn Trung Kiên	- 241230766	- TrungKienNguyen26
 
 ---
 
