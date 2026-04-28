@@ -1,0 +1,82 @@
+// lib/data/medicine_data.dart
+import 'package:flutter/material.dart';
+
+List<Map<String, dynamic>> globalMedicines = [
+  {
+    'id': 'SP001',
+    'barcode': '8931122334455', // Mã vạch mẫu
+    'name': 'Panadol Extra',
+    'activeIngredient': 'Paracetamol 500mg, Caffeine 65mg',
+    'usage': 'Giảm đau đầu, đau răng, hạ sốt',
+    'location': 'Kệ A - Ngăn 2',
+    'stock': 150,
+    'unit': 'Viên',
+    'price': 5000,
+    'category': 'Giảm đau',
+    'expiry': '12/2025',
+    'batch': 'LOT202401',
+  },
+  {
+    'id': 'SP002',
+    'barcode': '4250382209058', // <--- MÃ VẠCH THỰC TẾ BẠN YÊU CẦU
+    'name': 'Augmentin 625mg',
+    'activeIngredient': 'Amoxicillin 500mg, Acid Clavulanic 125mg',
+    'usage': 'Kháng sinh điều trị nhiễm khuẩn hô hấp',
+    'location': 'Kệ B - Ngăn lạnh',
+    'stock': 25,
+    'unit': 'Hộp',
+    'price': 180000,
+    'category': 'Kháng sinh',
+    'expiry': '05/2025',
+    'batch': 'AUG8829',
+  },
+  {
+    'id': 'SP003',
+    'barcode': '8939876543210',
+    'name': 'Siro Prospan',
+    'activeIngredient': 'Cao khô lá thường xuân',
+    'usage': 'Trị ho, long đờm, viêm phế quản',
+    'location': 'Kệ C - Tầng 1',
+    'stock': 10,
+    'unit': 'Chai',
+    'price': 75000,
+    'category': 'Hô hấp',
+    'expiry': '08/2025',
+    'batch': 'PRO1122',
+  },
+  {
+    'id': 'SP004',
+    'barcode': '8936543210987',
+    'name': 'Vitamin C 1000mg',
+    'activeIngredient': 'Ascorbic Acid',
+    'usage': 'Tăng sức đề kháng',
+    'location': 'Kệ D - Tầng 3',
+    'stock': 50,
+    'unit': 'Lọ',
+    'price': 85000,
+    'category': 'Vitamin',
+    'expiry': '01/2026',
+    'batch': 'VIT099',
+  },
+  {
+    'id': 'SP005',
+    'barcode': '8931234567890',
+    'name': 'Nước muối sinh lý 0.9%',
+    'activeIngredient': 'Natri Clorid',
+    'usage': 'Rửa mắt, mũi, súc miệng',
+    'location': 'Kệ E - Tầng trệt',
+    'stock': 200,
+    'unit': 'Chai',
+    'price': 5000,
+    'category': 'Khác',
+    'expiry': '11/2024',
+    'batch': 'NMSL22',
+  },
+];
+
+List<Map<String, dynamic>> globalCategories = [
+  {'name': 'Thuốc kháng sinh', 'count': 45, 'icon': Icons.biotech},
+  {'name': 'Thực phẩm chức năng', 'count': 120, 'icon': Icons.health_and_safety},
+  {'name': 'Dược mỹ phẩm', 'count': 30, 'icon': Icons.face},
+  {'name': 'Dụng cụ y tế', 'count': 15, 'icon': Icons.medical_information},
+];
