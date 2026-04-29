@@ -193,9 +193,9 @@ The system includes the following main tables:
 
 For inquiries or references, please contact the author. **Any copying actions will be reported.**
 
-**Author**: 
+**Authors**: 
 - Phương Mai Anh	- 241224468 - tralev
-- Phạm Thị Thúy Quỳnh - 241230831 - jocyphm	
+- Phạm Thị Thúy Quỳnh - 241230831 - jocyphm16	
 - Phạm Bá Tuấn Tú - 241230880 - tuantu-ococ
 - Trần Ngọc Khánh -	241230761 - ngockhanhtran
 - Nguyễn Trung Kiên	- 241230766	- TrungKienNguyen26
